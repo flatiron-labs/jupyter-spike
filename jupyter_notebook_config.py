@@ -153,7 +153,7 @@
 ## Extra paths to search for serving jinja templates.
 #  
 #  Can be used to override templates from notebook.templates.
-#c.NotebookApp.extra_template_paths = []
+c.NotebookApp.extra_template_paths = ['~/.jupyter_files/templates']
 
 ## 
 #c.NotebookApp.file_to_run = ''

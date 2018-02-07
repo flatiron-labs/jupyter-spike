@@ -1,1 +1,3 @@
-ln -s jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+mkdir -p ~/.jupyter_files
+ln -sF jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+ln -sF $(pwd)/templates ~/.jupyter_files/templates

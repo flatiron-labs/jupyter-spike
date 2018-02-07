@@ -1,0 +1,10 @@
+Phoeyonce
+  JupyterChannel
+    push 123.123.123.123:13555
+    expose the webport
+  Learn
+    iframe at 123.123.123.123/notebooks/root.ipynb
+    Issues
+      Write our own template for notebook#show
+Lum JNC
+

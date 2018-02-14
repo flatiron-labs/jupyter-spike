@@ -1,0 +1,14 @@
+#header {
+  display: none !important;
+}
+.container {
+  width: 100%;
+}
+
+#notebook {
+  padding-top: 0 !important;
+}
+
+.end_space {
+  display: none;
+}

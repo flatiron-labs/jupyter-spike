@@ -3,3 +3,4 @@ ln -sF jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
 ln -sF $(pwd)/templates ~/.jupyter_files/templates
 mkdir -p ~/.jupyter/custom/
 ln -sF $(pwd)/custom.css ~/.jupyter/custom/custom.css
+ln -sF $(pwd)/custom.js ~/.jupyter/custom/custom.js
